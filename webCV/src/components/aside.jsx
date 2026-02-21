@@ -30,8 +30,8 @@ function Aside() {
       </ul>
       <h2>Contact</h2>
       <ul>
-        <li>📱 Télephone : 06.65.05.06.40</li>
-        <li>✉️ Email : vourdon@live.fr</li>
+        <li>📱 Télephone: 06.65.05.06.40</li>
+        <li>✉️ Email: vourdon@live.fr</li>
       </ul>
       <h2></h2>
       <ul>
