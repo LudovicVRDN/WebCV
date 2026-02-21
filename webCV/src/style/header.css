@@ -1,0 +1,37 @@
+
+
+.headerBanner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: x-large;
+       background-color: var(--bg-header);
+    padding: 25px;
+    color: white;
+    border-bottom: 3px solid white;
+}
+.profilPicture{
+    width: 210px ;
+    height: 210px;
+    border-radius: 100%;
+    box-shadow: 5px 5px 16px var(--shadow-color);
+}
+@media screen and (max-width: 767px){
+    .profilPicture{
+    width: 120px ;
+    height: 120px;
+    }
+    .headerBanner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    gap:35px
+    }
+    .header button{
+    margin-bottom: 15px;
+}
+}
+    
+
+

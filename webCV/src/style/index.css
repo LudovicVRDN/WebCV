@@ -1,0 +1,18 @@
+:root {
+  --bg-primary: #ffffff;
+  --bg-header: rgb(145, 131, 114);
+  --text-primary: #333;
+  --shadow-color: rgba(0,0,0,0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-primary: #121212;
+    --bg-header: #3a362d;
+    --text-primary: #e0e0e0;
+    --shadow-color: rgba(255,255,255,0.1);
+  }
+}
+body{
+    display: flex;
+}
