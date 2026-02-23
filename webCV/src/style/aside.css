@@ -14,6 +14,15 @@
     margin: 15px ;
     font-size: large;
 }
+.devList li{
+    display: flex;
+    align-items: center;
+    gap: 5px
+}
+.devList img{
+    width: 30px;
+    height: 30px;
+}
 @media screen and (max-width: 767px){
     .contactASide{
         width: 8rem;
@@ -25,6 +34,10 @@
         font-size: small;
         margin: 10px 0;
     }
+    .devList img{
+    width: 20px;
+    height: 20px;
+}
    
 }
 
