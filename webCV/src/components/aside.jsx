@@ -50,7 +50,9 @@ function Aside() {
       </ul>
       <h2> Centres intérêt</h2>
       <ul>
-        <li></li>
+        <li>🎮 Jeux vidéos</li>
+        <li>📺 Série télé/ Anime</li>
+        <li>📖 Lecture</li>
       </ul>
     </div>
   );
