@@ -20,7 +20,11 @@ body{
   max-width: 100%;  /* Bloque overflow */
   overflow-x: hidden;
 }
+
 .content{
   display: flex;
-  flex-direction: row-reverse;
+}
+.text {
+  margin: 0 auto;
+  
 }

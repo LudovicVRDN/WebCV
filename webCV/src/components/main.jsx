@@ -1,5 +1,8 @@
 import "../style/main.css";
 import todo from '../assets/todolist.png'
+import "../style/footer.css"
+import linked from '../assets/linkedin.png' 
+import git from "../assets/github.png"
 
 function Main() {
     const ecole = "<alt/>"
@@ -68,6 +71,7 @@ function Main() {
             </li>
         </ul>
       </article>
+
     </div>
   );
 }
