@@ -14,8 +14,13 @@
   }
 }
 body{
-    display: flex;
-        width: 100vw;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
   max-width: 100%;  /* Bloque overflow */
   overflow-x: hidden;
+}
+.content{
+  display: flex;
+  flex-direction: row-reverse;
 }

@@ -2,7 +2,7 @@
     background-color: var(--bg-header);
     display: flex;
     flex-direction: column;
-   
+    flex: 0.5;
     width: 25rem;
     padding: 20px;
     margin-left: 2px;

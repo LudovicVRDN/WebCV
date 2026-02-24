@@ -1,0 +1,50 @@
+.mainSide{
+    padding: 10px;
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    margin-top: 20px;
+    margin-left: 15px; 
+}
+.mainSide h2{
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+.block{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid rgb(171, 168, 168);
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px rgb(163, 162, 162) ;
+    overflow-y: auto;
+    max-height: 250px;
+    max-width: 1000px;
+    margin: auto;
+}
+.block ul{
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+}
+
+.mainSide li{
+    list-style: none;
+}
+.list{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.projet{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.project1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
