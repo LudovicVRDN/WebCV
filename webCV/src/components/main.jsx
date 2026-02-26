@@ -65,21 +65,24 @@ function Main() {
       </article>
       <article>
         <h2>Projet réalisés</h2>
-        <ul className="block">
+        <ul className="blockProjet">
             <li className="project">
                 <a target="_blank" href="https://willowy-frangipane-fc6eb5.netlify.app"> <img className="projet" src ={todo} alt="Capture d'écran to do list"/>
                 </a>
-                To-Do List (code:POO TypeScript HTML / Tailwind)
+                To-Do List | POO, TypeScript, Tailwind: <br/>
+                Pour un code structuré j'ai opté pour le principe POO SOLID avec le principe KISS afin d'optimiser la lecture , l'amélioration et la maintenance de ce projet. 
             </li>
             <li className="project">
                 <a target="_blank" href="https://puissancefour.netlify.app"> <img className="projet" src ={puissanceF} alt="Capture d'écran to do list"/>
                 </a>
-                Puissance 4 (Code procédurale en TypeScript / HTML / Tailwind)
+                Puissance 4 | TypeScript, HTML, Tailwind:  <br/>
+                Sur ce jeu du puissance 4 une logique algorithmique complexe est créee en TypeScript, on y retrouve des gestions d'états et de la manipulation du DOM optimisée.
             </li>
                <li className="project">
                 <a target="_blank" href="Mettre le lien" > <img className="projet" src ={webcv} alt="Capture d'écran to do list"/>
                 </a>
-                Web CV (Code réalise avec React et Vite)
+                Web CV | React, Vite, Tailwind <br/>
+                Pour un design moderne et responsive j'ai choisi de créer mon CV interactif via React et Vite. Ce framework moderne permet de créer des composants plus faciles à maintenir et à faire évoluer.
             </li>
         </ul>
       </article>

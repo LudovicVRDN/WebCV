@@ -27,6 +27,20 @@
     margin: auto;
     font-size: x-large;
 }
+.blockProjet{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid rgb(171, 168, 168);
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px rgb(163, 162, 162) ;
+    overflow-y: auto;
+    max-height: 275px;
+    max-width: 1000px;
+    margin: auto;
+    font-size: x-large;
+}
 .block ul{
     border-bottom: 1px solid black;
     padding-bottom: 15px;
@@ -49,4 +63,10 @@
     display: flex;
     align-items: center;
     gap: 20px;
+}
+@media screen and (min-width: 768px) {
+    .projet{
+        width: 175px;
+        height: 175px;
+    }
 }
