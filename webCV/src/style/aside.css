@@ -23,9 +23,13 @@
     width: 30px;
     height: 30px;
 }
+.toggleBttn{
+    display: none;
+}
 @media screen and (max-width: 767px){
     .contactASide{
         width: 8rem;
+        
     }
     .contactASide h2{
         font-size: medium;
@@ -37,8 +41,16 @@
     .devList img{
     width: 20px;
     height: 20px;
-}
-   
+    } 
+    .contactASide.hidden{
+        display: none;
+    }
+    .toggleBttn{
+    display: block;
+    margin-left: 8px;
+    margin-top: 5px;
+    border : 0
+     } 
 }
 
     

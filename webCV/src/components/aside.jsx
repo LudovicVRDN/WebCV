@@ -3,11 +3,18 @@ import logoHTML from '../assets/logoHTML.png'
 import logoCSS from '../assets/logoCSS.png'
 import logoJS from '../assets/logoJS.png'
 import logoTS from '../assets/logoTS.png'
+import { useState } from "react";
 
 
 function Aside() {
+  const [isAsideOpen , setAsideOpen] = useState(false);
+  const toggleAside = () =>{
+    setAsideOpen(!isAsideOpen)
+  }
   return (
-    <div className="contactASide">
+    <div>
+    <button className="toggleBttn" onClick={toggleAside}><i className="fa-solid fa-bars"></i></button>
+    <div className={`contactASide ${isAsideOpen ? '' : 'hidden'}`}>
       <h2>A Propos de moi </h2>
       <ul>
         <li>📍Lorraine, Moselle (57) </li>
@@ -54,6 +61,8 @@ function Aside() {
         <li>📺 Série télé/ Anime</li>
         <li>📖 Lecture</li>
       </ul>
+    </div>
+    
     </div>
   );
 }

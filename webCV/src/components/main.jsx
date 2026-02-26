@@ -1,5 +1,7 @@
 import "../style/main.css";
 import todo from '../assets/todolist.png'
+import puissanceF from "../assets/puissance4.png"
+import webcv from '../assets/webcv.png'
 import "../style/footer.css"
 import linked from '../assets/linkedin.png' 
 import git from "../assets/github.png"
@@ -64,10 +66,20 @@ function Main() {
       <article>
         <h2>Projet réalisés</h2>
         <ul className="block">
-            <li className="project1">
+            <li className="project">
                 <a target="_blank" href="https://willowy-frangipane-fc6eb5.netlify.app"> <img className="projet" src ={todo} alt="Capture d'écran to do list"/>
                 </a>
                 To-Do List (code:POO TypeScript HTML / Tailwind)
+            </li>
+            <li className="project">
+                <a target="_blank" href="https://puissancefour.netlify.app"> <img className="projet" src ={puissanceF} alt="Capture d'écran to do list"/>
+                </a>
+                Puissance 4 (Code procédurale en TypeScript / HTML / Tailwind)
+            </li>
+               <li className="project">
+                <a target="_blank" href="Mettre le lien" > <img className="projet" src ={webcv} alt="Capture d'écran to do list"/>
+                </a>
+                Web CV (Code réalise avec React et Vite)
             </li>
         </ul>
       </article>

@@ -6,6 +6,7 @@
     gap:40px;
     margin-top: 20px;
     margin-left: 15px; 
+    
 }
 .mainSide h2{
     margin-bottom: 15px;
@@ -24,6 +25,7 @@
     max-height: 250px;
     max-width: 1000px;
     margin: auto;
+    font-size: x-large;
 }
 .block ul{
     border-bottom: 1px solid black;
@@ -43,7 +45,7 @@
     height: 100px;
     border-radius: 100%;
 }
-.project1{
+.project{
     display: flex;
     align-items: center;
     gap: 20px;
