@@ -74,3 +74,21 @@ span{
         height: 175px;
     }
 }
+@media screen and (max-width: 768px) {
+   .block{
+    max-width: 300px;
+   }
+   .blockProjet{
+    max-width: 300px;
+   }
+   .project{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+}
