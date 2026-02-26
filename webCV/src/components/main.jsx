@@ -19,7 +19,7 @@ function Main() {
             numérique le développement m'a tout de suite plu. J'aime le fait de
             pouvoir créer de zéro.J'ai pour projet d'enrichir mes connaissances
             et mes compétences au maximum je suis curieux et je m'intéresse
-            beaucoup aux nouvelle technologie et aux évolutions numériques.
+            beaucoup aux nouvelles technologies et aux évolutions numériques.
           </p>
         </div>
       </article>
@@ -50,7 +50,7 @@ function Main() {
             <ul className="list">
               <li>Gestion des plannings</li>
               <li>Gestion des stocks</li>
-              <li>Gestion de l'ouverture et de la clôtutre de la caisse</li>
+              <li>Gestion de l'ouverture et de la clôture de la caisse</li>
             </ul>
           </li>
           <li>
