@@ -14,12 +14,7 @@ function Main() {
         <h2>Développeur en reconversion</h2>
         <div className="block">
           <p>
-            Quand j'ai choisi de faire une reconversion professionnelle le choix
-            a été plutôt évident ,passioné d'informatique et l'univers du
-            numérique le développement m'a tout de suite plu. J'aime le fait de
-            pouvoir créer de zéro.J'ai pour projet d'enrichir mes connaissances
-            et mes compétences au maximum je suis curieux et je m'intéresse
-            beaucoup aux nouvelles technologies et aux évolutions numériques.
+       Ancien coiffeur / coloriste, j’ai transposé ma minutie et mon sens du détail vers le développement web. Passionné par l’univers informatique j’ai été tout de suite conquis par la création d’applications web et mobile, utiles ou ludiques. J’ai à coeur de créer des projets qui seront durables grâce à des principes de codes comme KISS, POO et SOLID.
           </p>
         </div>
       </article>

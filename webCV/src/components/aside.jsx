@@ -23,7 +23,7 @@ function Aside() {
       </ul>
       <h2>Objecifs</h2>
       <ul>
-        <li>🚀 Alternance bac+3 Concepteur Dévolppeur web - Sept 2026</li>
+        <li>🚀 Alternance bac+3 Concepteur Développeur web - Sept 2026</li>
       </ul>
       <h2>Formation</h2>
       <ul>
@@ -43,11 +43,11 @@ function Aside() {
         </li>
         <li>
           <img src={logoJS} alt="Logo HTML" />
-           JavaScript (Principe KISS et SOLID)
+           JavaScript (Principe POO, KISS et SOLID)
           </li>
         <li>
           <img src={logoTS} alt="Logo HTML" />
-           TypeScript (Principe KISS et SOLID)
+           TypeScript (Principe POO, KISS et SOLID)
           </li>
       </ul>
       <h2>Contact</h2>
@@ -55,10 +55,11 @@ function Aside() {
         <li>📱 Télephone: 06.65.05.06.40</li>
         <li>✉️ Email: vourdon@live.fr</li>
       </ul>
-      <h2> Centres intérêt</h2>
+      <h2> Centres d'intérêt</h2>
       <ul>
         <li>🎮 Jeux vidéos</li>
-        <li>📺 Série télé/ Anime</li>
+        <li>📺 Série télé </li>
+        <li>📺 Anime</li>
         <li>📖 Lecture</li>
       </ul>
     </div>
