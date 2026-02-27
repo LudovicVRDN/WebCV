@@ -23,7 +23,7 @@
     box-shadow: 5px 5px 10px rgb(163, 162, 162) ;
     overflow-y: auto;
     max-height: 250px;
-    max-width: 1000px;
+    width: 70dvw;
     margin: auto;
     font-size: x-large;
 }
@@ -37,7 +37,7 @@
     box-shadow: 5px 5px 10px rgb(163, 162, 162) ;
     overflow-y: auto;
     max-height: 275px;
-    max-width: 1000px;
+   width:  70dvw;
     margin: auto;
     font-size: x-large;
 }
@@ -75,12 +75,7 @@ span{
     }
 }
 @media screen and (max-width: 768px) {
-   .block{
-    max-width: 300px;
-   }
-   .blockProjet{
-    max-width: 300px;
-   }
+
    .project{
     display: flex;
     flex-direction: column;
