@@ -33,7 +33,7 @@ function Main() {
       </div>
       <details className="collapse   border-l-4 border-taupe-700 bg-taupe-100 rounded-lg p-6">
         <summary className="collapse-title font-semibold">
-          <h2 className="text-2xl">Expériences</h2>
+          <h2 className="text-2xl">Toutes mes informations</h2>
         </summary>
         <Aside />
       </details>
