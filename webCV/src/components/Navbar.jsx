@@ -1,4 +1,4 @@
-import profilPicture from "../assets/testPdp2.jpg";
+import profilPicture from "../assets/testPdp2.png";
 
 import linked from '../assets/linkedin.png' 
 import git from "../assets/github.png"
@@ -13,7 +13,7 @@ function HeaderBanner() {
         <img
           src={profilPicture}
           alt="Photo de profil CV"
-          className="h-25 w-25 lg:h-40 lg:w-40 rounded-full"
+          className="h-35 w-40 lg:h-50 lg:w-40 rounded-full"
         />
       </div>
       <section>

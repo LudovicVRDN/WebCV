@@ -3,7 +3,7 @@ import logoCSS from "../assets/logoCSS.png";
 import logoJS from "../assets/logoJS.png";
 import logoTS from "../assets/logoTS.png"
 import logoReact from "../assets/react.png";
-import logoNode from "../assets/node.png"
+import logoNest from "../assets/nest.png"
 import { useState } from "react";
 
 function Aside() {
@@ -61,8 +61,8 @@ function Aside() {
             React
           </li>
           <li className="flex flex-col w-25 text-center items-center">
-            <img src={logoNode} alt="Logo NodeJS" className="w-12 h-12" />
-            NodeJS 
+            <img src={logoNest} alt="Logo NestJS" className="w-12 h-12" />
+            NestJS 
           </li>
         </ul>
       </div>
